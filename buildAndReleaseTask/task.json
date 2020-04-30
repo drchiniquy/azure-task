@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+  "id": "cd308c5a-1487-42ea-8c36-305a40c4bd4a",
+  "name": "customtask",
+  "friendlyName": "custom task",
+  "description": "custom task",
+  "helpMarkDown": "",
+  "category": "Utility",
+  "author": "don.chiniquy",
+  "version": {
+      "Major": 0,
+      "Minor": 1,
+      "Patch": 0
+  },
+  "instanceNameFormat": "Echo $(samplestring)",
+  "inputs": [
+      {
+          "name": "samplestring",
+          "type": "string",
+          "label": "Sample String",
+          "defaultValue": "",
+          "required": true,
+          "helpMarkDown": "A sample string"
+      }
+  ],
+  "execution": {
+      "Node10": {
+          "target": "index.js"
+      }
+  }
+}
