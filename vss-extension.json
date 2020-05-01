@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "build-release-task",
-  "name": "",
+  "name": "Nike-azure-test",
   "version": "0.0.2",
   "publisher": "nike-azure",
   "targets": [
