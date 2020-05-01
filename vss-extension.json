@@ -2,14 +2,14 @@
   "manifestVersion": 1,
   "id": "build-release-task",
   "name": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "nike-azure",
   "targets": [
       {
           "id": "Microsoft.VisualStudio.Services"
       }
   ],    
-  "description": "Tools for building/releasing with Fabrikam. Includes one build/release task.",
+  "description": "Tool for testing a new extension.",
   "categories": [
       "Azure Pipelines"
   ],
